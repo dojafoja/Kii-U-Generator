@@ -4,10 +4,6 @@ from Crypto.Cipher import AES
 import sys
 import json
 
-try:
-    from hashlib import md5
-except:
-    from md5 import md5
 
 
 def get_secret():
